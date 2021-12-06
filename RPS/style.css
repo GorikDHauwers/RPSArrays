@@ -1,0 +1,82 @@
+@font-face {
+   font-family: LCDSolid;
+   src: url(../RPS/LcdSolid-VPzB.ttf);
+}
+
+.h3 {
+   font-size: 30px;
+   padding: 1em;
+}
+
+.hidden{
+   display: none;
+}
+
+.icon {
+   width: 5em;
+   height: 5em;
+   border: black solid 3px;
+   border-radius: 50%;
+   background-size: cover;
+}
+
+.clickable {
+      transition: ease-in 1s;
+   filter: brightness(0.8);
+}
+
+.clickable:hover{
+   transform: scale(1.1);
+   filter:brightness(1);
+}
+
+.flex {
+   display: flex;
+   justify-content: space-around;
+}
+
+.center {
+   text-align: center;
+}
+
+.container {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.score{
+   color: red;
+}
+
+.scoreText {
+   color: white;
+}
+
+.choice {
+   margin-bottom: 1em;
+   margin-top: 2em;
+   padding: 1em;
+   border: black 1px solid;
+   border-radius: 0.5em;
+   background-image: url(../RPS/img/table.jpg);
+}
+
+.rock {
+   background-image: url(../RPS/img/rock.jpg);
+}
+
+.paper {
+   background-image: url(../RPS/img/paper.jpg);
+}
+
+.scissor {
+   background-image: url(../RPS/img/scissor.kopie.jpg);
+}
+#scoreboard {
+   background-color: black;
+   width: 10em;
+   padding: 1em;
+   margin: 0 auto;
+   font-family: LCDSolid;
+}
+
